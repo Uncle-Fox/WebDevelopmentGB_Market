@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  background-color: #222;
+  align-items: center;
+}
+.header_img {
+  padding: 20px;
+}
+.left__header__logos {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 0 430px 0 200px;
+  padding: 20px;
+}
+.right__header__logos {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 0 200px 0 430px;
+}
+.current__advertisement {
+  background-color: #f1e4e6;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.ManInJacket_main_view {
+  max-width: 100%;
+}
+.aside_content_advert {
+  padding-left: 60px;
+}
